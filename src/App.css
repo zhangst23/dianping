@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+}
+a { text-decoration: none; } 
+a:hover { text-decoration: none; } 
+
+
+/*header*/
+.App-header {
+  background-color: #222;
+  height: 120px;
+  padding: 10px;
+  color: white;
+
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.Search-hospital {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+
+
+/*Intro*/
+
+.App-intro {
+  font-size: large;
+  padding: 20px;
+}
+.Intro-head {
+  position: float;
+  padding-top: 25px;
+}
+.Intro-head .Intro-result {
+  float: left;
+  font-size: 13px;
+}
+.Intro-head .Intro-doctor-hospital {
+  float: right;
+
+}
+
+
+/*docList*/
+.doctorList {
+  position: float;
+  padding-top: 50px;
+
+}
+.doctorItem {
+  float:left;
+  border: 1px solid #eee;
+  padding: 9px;
+  margin: 10px;
+}
+
+.doctorItem img {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+.doctorItem .hosName {
+  color: #a28a8a;
+  font-size: 14px;
+
+}
+
+.doctorItem .yelpText {
+  color: #a28a8a;
+  /*font-size: 14px;*/
+
+}
+
+/*.doctorItem .yelpCount {
+  float: left;
+}
+
+
+.doctorItem .yelpText {
+  float: right;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
