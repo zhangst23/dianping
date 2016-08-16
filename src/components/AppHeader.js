@@ -1,12 +1,12 @@
-import React, { component } from 'react', 
-
+import React, { Component } from 'react';
+import logo from '../logo.svg';
 import '../App.css';
 
-class App-header extends Component {
-    render:function(){
+class AppHeader extends Component {
+    render(){
       return (
-	        <div className="App-header">
-	          <img src={logo} className="App-logo" alt="logo" />
+	        <div className="AppHeader">
+	          <img src={logo} className="AppLogo" alt="logo" />
 	          <div className="search">
 	            <input type="text" className="Search-doctor" placeholder="医生"/>
 	            <input type="text" className="Search-hospital" placeholder="医院"/>
@@ -15,7 +15,7 @@ class App-header extends Component {
 	        </div>
 		)
 	}
-}）
+}
 
-export default App-header;
+export default AppHeader;
 

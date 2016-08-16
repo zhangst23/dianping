@@ -1,11 +1,11 @@
-import React, { component } from 'react';
+import React, { Component } from 'react';
 
 import '../App.css';
 
-class Intro-head extends Component {
+class IntroHead extends Component {
 	render(){
 		return (
-          <div className="Intro-head">
+          <div className="IntroHead">
             <div className="Intro-result"> <b>10</b> 个结果</div>
             <div className="Intro-doctor-hospital">
               <button className="Intro-doctor">医生</button>
@@ -16,4 +16,4 @@ class Intro-head extends Component {
 	}
 }
 
-export default Intro-head;
+export default IntroHead;
