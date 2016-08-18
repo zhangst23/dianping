@@ -1,5 +1,6 @@
 
-create-react-app dianping
+create-react-app dianping  
+
 npm start
 
 
