@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import AppHeader from './components/AppHeader.js';
 import IntroHead from './components/IntroHead.js';
 import docList from './components/docList.js';
-import docItem from './components/docItem.js';
 
 import './App.css';
 

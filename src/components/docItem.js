@@ -7,7 +7,7 @@ class docItem extends Component {
 	render(){
 		return (
           <div className="docItem">
-            <a href="#">
+            <a href="#" className="docDetail">
               <img src={logo} className="AppLogo" alt="logo" />
               <p className="docName">王医生</p>
               <p className="hosName">协和医院</p>
